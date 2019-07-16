@@ -1,0 +1,105 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 7rem;
+    height: 9.2rem;
+    background: url("../images/bg.png") no-repeat 0 0;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.starGameBtn{
+    width: 3rem;
+    left: 50%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: -1.5rem;
+    font-size:0.16rem;
+}
+
+.hole > div {
+    overflow: hidden;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    border-radius: 200px/45px; /*上下有弧度的边*/
+}
+
+.hole > div:nth-child(1) {
+    top: 3.90rem;
+    left: 1.43rem;
+}
+
+.hole > div:nth-child(2) {
+    top: 4.59rem;
+    left: 0.41rem;
+}
+
+.hole > div:nth-child(3) {
+    top: 4.75rem;
+    left: 2.49rem;
+}
+
+.hole > div:nth-child(4) {
+    top: 5.91rem;
+    left: 0.41rem;
+}
+
+.hole > div:nth-child(5) {
+    top: 3.95rem;
+    left: 4.29rem;
+}
+
+.hole > div:nth-child(6) {
+    top: 6.40rem;
+    left: 1.61rem;
+}
+
+.hole > div:nth-child(7) {
+    top: 5.82rem;
+    left: 2.96rem;
+}
+
+.hole > div:nth-child(8) {
+    top: 7.14rem;
+    left: 0.42rem;
+}
+
+.hole > div:nth-child(9) {
+    top: 4.58rem;
+    left: 5.64rem;
+}
+
+.hole > div:nth-child(10) {
+    top: 5.25rem;
+    left: 4.35rem;
+}
+
+.hole > div:nth-child(11) {
+    top: 5.87rem;
+    left: 5.63rem;
+}
+
+.hole > div:nth-child(12) {
+    top: 7.04rem;
+    left: 3.29rem;
+}
+
+.hole > div:nth-child(13) {
+    top: 6.93rem;
+    left: 5.55rem;
+}
+
+.anewGame{
+    bottom: 2rem;
+    width: 3rem;
+    left: 50%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: -1.5rem;
+    font-size:0.16rem;
+}

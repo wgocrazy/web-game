@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/mobile_index.css" media="(max-width:960px)">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="hand"></div>
+
+<div class="box">
+    <div class="starGame">
+        <button class="starGameBtn">开始游戏</button>
+    </div>
+    <div class="GameOver">
+        <p>得分：<span></span></p>
+        <button class="anewGame">重新开始</button>
+    </div>
+    <div class="GameGrade">
+        <span>分数：</span><span>0</span>
+    </div>
+    <div class="GameLife">
+        <img src="images/life.png" alt="">
+        <span> X</span><span class="lifeNum"> 10</span>
+    </div>
+    <div class="hole">
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+        <div><img src="images/g10.png" alt=""></div>
+    </div>
+
+</div>
+
+<script>
+    var html = document.querySelector('html');
+    var rem = html.offsetWidth / 7;
+    html.style.fontSize = rem + "px";
+</script>
+</body>
+</html>
