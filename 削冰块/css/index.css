@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background: url("../images/time.png") no-repeat 0 0;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.down_bk_box {
+    width: 100%;
+    position: relative;
+    top: -0.5rem;
+    left: 0;
+    /*z-index: 999;*/
+
+}
+
+.down_bk_row {
+    font-size: 0;
+    position: relative;
+    width: 100%;
+}
+
+.down_bk_row img {
+    width: 23%;
+    margin: 0 1%;
+    height: 0.5rem;
+    vertical-align: middle;
+}
+
+.down_bk_0 {
+    position: relative;
+    opacity: 0;
+}
+
+.down_bk_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.down_bk_2 {
+    position: absolute;
+    left: 25%;
+    top: 0;
+}
+
+.down_bk_3 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.down_bk_4 {
+    position: absolute;
+    left: 75%;
+    top: 0;
+}
+
+.up_bk_box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.up_bk_box::before {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.up_bk_box > div {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.up_bk_box > div img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    margin-left: 4%;
+    height: 0.5rem;
+
+}
+.game_start{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.game_over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+.game_over_con{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.game_btn {
+    outline: none;
+    width: 1.8rem;
+    /*left: 50%;*/
+    color: #fff;
+    background-color: #1890ff;
+    line-height: 0.4rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: none;
+    font-size: 0.2rem;
+    border-radius: 6px;
+    height: 0.4rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    /*position: absolute;*/
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+}
+.game_over_jf{
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+.all_jf{
+    display: none;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    left: 0;
+    color: #f00d00;
+    width: 100%;
+    z-index: 9999;
+}
