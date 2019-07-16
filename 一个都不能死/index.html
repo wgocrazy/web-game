@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+</head>
+
+<div class="game_star">
+    <p class="game_title"><i></i>一个都不能死</p>
+    <div class="select_pattern">
+        <button id="2">普通模式</button>
+        <button id="3">困难模式</button>
+        <button id="4">噩梦模式</button>
+        <button id="5">地狱模式</button>
+    </div>
+</div>
+
+<div class="game_over">
+    <p class="game_title"><i></i>游戏结束</p>
+    <div class="select_pattern">
+        <p class="grade last_pattern"></p>
+        <p class="grade last_grade"></p>
+    </div>
+    <p class="grade back_index">返回主页</p>
+
+</div>
+
+<div class="box">
+    <span class="box_grade">"</span>
+
+
+</div>
+</div>
+
+<body>
+<script>
+    var html = document.querySelector('html');
+    var rem = html.offsetWidth / 3.75;
+    html.style.fontSize = rem + "px";
+</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
