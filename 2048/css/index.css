@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grade_box {
+    font-size: 0.3rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.grade {
+    color: red;
+
+}
+
+.anew_box {
+    text-align: center;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.anew {
+    outline: none;
+    color: #fff;
+    background-color: #1890ff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: none;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 32px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    position: relative;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+}
+
+.game_bg {
+    padding: 0.04rem;
+    width: 3.35rem;
+    height: 3.35rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 0.2rem;
+    background: #BBADA0;
+    border-radius: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.game_bg > div {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row_1 {
+
+}
+
+.game_bg_item {
+    width: 22%;
+    height: 100%;
+    background: #CCC0B4;
+    border-radius: 0.05rem;
+}
+
+.game_bg_item > div {
+    border-radius: 0.05rem;
+    width: 100%;
+    height: 100%;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.jcdh {
+    animation: infadeIn 0.15s;
+
+}
+
+@-webkit-keyframes infadeIn {
+    0% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+@-o-keyframes infadeIn {
+    0% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+@-moz-keyframes infadeIn {
+    0% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+@keyframes infadeIn {
+    0% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+.sz2 {
+    background: #EEE4DA;
+    color: #776E65;
+    font-size: 0.4rem !important;
+}
+
+.sz4 {
+    background: #ECE0CA;
+    color: #776E65;
+    font-size: 0.4rem !important;
+}
+
+.sz8 {
+    background: #F2B179;
+    color: #fff;
+    font-size: 0.4rem !important;
+}
+
+.sz16 {
+    background: #ED8D53;
+    color: #fff;
+    font-size: 0.4rem !important;
+}
+
+.sz32 {
+    background: #F67C5D;
+    color: #fff;
+    font-size: 0.4rem !important;
+}
+
+.sz64 {
+    background: #F95F40;
+    color: #fff;
+    font-size: 0.35rem !important;
+}
+
+.sz128 {
+    background: #EDD06C;
+    color: #fff;
+    font-size: 0.3rem !important;
+}
+
+.sz256 {
+    background: #F4CE4F;
+    color: #fff;
+    font-size: 0.3rem !important;
+}
+
+.sz512 {
+    background: #E4C02A;
+    color: #fff;
+    font-size: 0.3rem !important;
+}
+
+.sz1024 {
+    background: #E2B913;
+    color: #fff;
+    font-size: 0.25rem !important;
+}
+
+.sz2048 {
+    background: #ECC400;
+    color: #fff;
+    font-size: 0.25rem !important;
+}
+
+.sz4096 {
+    background: #5FDB93;
+    color: #fff;
+    font-size: 0.25rem !important;
+}
+
+.sz8192 {
+    background: #ED4D57;
+    color: #fff;
+    font-size: 0.25rem !important;
+}
+
+.sz16384 {
+    background: #F1423D;
+    color: #fff;
+    font-size: 0.2rem !important;
+}
+
+.sz32768 {
+    background: #6DB2D3;
+    color: #fff;
+    font-size: 0.2rem !important;
+}
+
+.sz65536 {
+    background: #5BA0DB;
+    color: #fff;
+    font-size: 0.2rem !important;
+}
+
+.sz131072 {
+    background: #1683C8;
+    color: #fff;
+    font-size: 0.18rem !important;
+}
+
